@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex; 
+    background-color: #1F2937;
+    color: white;
+    justify-content: flex-end ;
+    flex-direction: row;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 250px;
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+    margin-right: 250px;
+}
+
+
+.Link{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.panel{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+img{
+    width:100px;
+    height: 100px;
+}
+
+.panel h1{
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.panel p{
+    font-size: 18px;
+}
